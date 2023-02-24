@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="daytona">#4a5056</color>
+    <color name="daytona_light">#767c83</color>
+    <color name="daytona_dark">#22282d</color>
+    <color name="velvet">#321253</color>
+    <color name="velvet_light">#5f3b81</color>
+    <color name="velvet_dark">#13002b</color>
+    <color name="topaz">#FA5E07</color>
+    <color name="carnet">#C92400</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

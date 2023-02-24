@@ -45,7 +45,7 @@ afterEvaluate {
 
                 // You can then customize attributes of the publication as shown below.
                 groupId = 'uk.co.conjure'
-                artifactId = 'sharedprefsexplorer'
+                artifactId = 'shared-prefs-explorer'
                 version = '1.0.0'
             }
         }
