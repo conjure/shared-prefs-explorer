@@ -1,5 +1,8 @@
 # shared-prefs-explorer
 
+A little stand-alone browser to read and edit your SharedPreferences.
+
+
 [![](https://jitpack.io/v/uk.co.conjure/shared-prefs-explorer.svg)](https://jitpack.io/#uk.co.conjure/shared-prefs-explorer)
 
 
