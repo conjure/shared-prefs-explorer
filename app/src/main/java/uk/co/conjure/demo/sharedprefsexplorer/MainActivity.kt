@@ -3,7 +3,7 @@ package uk.co.conjure.demo.sharedprefsexplorer
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
-import uk.co.conjure.sharedprefsexplorer.PreferenceBrowserActivity
+
 
 private const val SHARED_PREFS_NAME = "uk.co.conjure.demo.shared_prefs_explorer-test1"
 private const val SHARED_PREFS_NAME_2 = "uk.co.conjure.demo.shared_prefs_explorer-test2"
@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         findViewById<Button>(R.id.btn_explore).setOnClickListener {
-            PreferenceBrowserActivity.start(this)
+            SharedPrefsExplorerProxy.start(this)
         }
     }
 
@@ -26,11 +26,14 @@ class MainActivity : AppCompatActivity() {
         val editor = sharedPrefs.edit()
         editor.putBoolean("set", true)
         editor.putString("test", "test")
-        editor.putString("test a very long key that should either wrap or whatever but not mess with the layout", "test a very long value next to the key that should either wrap or whatever but not mess with the layout")
+        editor.putString(
+            "test a very long key that should either wrap or whatever but not mess with the layout",
+            "test a very long value next to the key that should either wrap or whatever but not mess with the layout"
+        )
         editor.putBoolean("boolean1", true)
         editor.putBoolean("boolean2", true)
         editor.putInt("int1", 1)
-        for(i in 0..20) {
+        for (i in 0..20) {
             editor.putString("test$i", "test$i")
         }
         editor.apply()

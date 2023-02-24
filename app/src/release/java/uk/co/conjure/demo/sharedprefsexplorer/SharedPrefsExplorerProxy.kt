@@ -1,6 +1,6 @@
 package uk.co.conjure.demo.sharedprefsexplorer
 
-class SharedPressExplorerProxy {
+class SharedPrefsExplorerProxy {
     companion object {
         fun start(context: android.content.Context) {
 
