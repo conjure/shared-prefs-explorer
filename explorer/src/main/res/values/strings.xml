@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Explorer</string>
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="delete">delete</string>
+    <string name="enter_value">Enter Value</string>
+    <string name="enter_key">Enter Key</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="new_preference">New preference</string>
+    <string name="invalid_value">Invalid value</string>
+    <string name="value">Value</string>
+    <string name="type">Type</string>
+</resources>

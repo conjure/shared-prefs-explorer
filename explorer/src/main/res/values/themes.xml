@@ -1,0 +1,47 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.LibSharedPrefsExplorer" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/velvet</item>
+        <item name="colorPrimaryVariant">@color/velvet_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/velvet</item>
+        <item name="colorSecondaryVariant">@color/velvet_dark</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <item name="colorTertiary">@color/topaz</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+
+        <item name="android:spinnerItemStyle">@style/SPE.SpinnerItemStyle</item>
+        <item name="materialSwitchStyle">@style/SPE.SwitchStyle</item>
+        <item name="switchStyle">@style/SPE.SwitchStyle</item>
+    </style>
+
+    <style name="SPE" />
+
+    <style name="SPE.PrimaryButton" parent="Widget.Material3.Button">
+
+    </style>
+
+    <style name="SPE.SecondaryButton" parent="Widget.Material3.Button.OutlinedButton">
+
+    </style>
+
+    <style name="SPE.TextButton" parent="Widget.Material3.Button.TextButton">
+
+    </style>
+
+
+    <style name="SPE.SwitchStyle" parent="Widget.Material3.CompoundButton.Switch">
+
+    </style>
+
+    <style name="SPE.SpinnerItemStyle">
+        <item name="android:padding">16dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.Material3.BodyMedium</item>
+    </style>
+</resources>
