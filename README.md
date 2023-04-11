@@ -11,21 +11,21 @@ A little stand-alone browser to read and edit your SharedPreferences.
 **Step 1** add repository
 
 Add `jitpack.io` to your root project build.gradle file:
-```
+```gradle
 allprojects {
-	repositories {
-		...
-		maven { url 'https://jitpack.io' }
-	}
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
 }
 
 ```
 
 **Step 2** add the dependency
 
-```
+```gradle
 dependencies {
-  debugImplementation 'uk.co.conjure:shared-prefs-explorer:<TAG>'
+    debugImplementation 'uk.co.conjure:shared-prefs-explorer:<TAG>'
 }
 ```
 
@@ -35,14 +35,14 @@ Note that we recommend adding the explorere as `debugImplementation` dependency.
 
 You can start the Activity from your Terminal by replacing `com.example.project` with your projects package name.
 
-```
+```shell
 adb shell am start com.example.project/uk.co.conjure.sharedprefsexplorer.PreferenceBrowserActivity
 ```
 
 ## Starting the Explorer in Code
 
 If you want to start the Explorer programmatically e.g. by adding a button you can do so via
-```
+```kotlin
 import uk.co.conjure.sharedprefsexplorer.PreferenceBrowserActivity
 //...
  
